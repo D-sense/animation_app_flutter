@@ -90,7 +90,7 @@ class HomeState extends State<Home> with TickerProviderStateMixin{
     return Container(
       height: 200,
       width:200,
-      color:Colors.brown
+      color:Colors.blue
     );
   }
   
@@ -118,7 +118,7 @@ class HomeState extends State<Home> with TickerProviderStateMixin{
           child: Container(
               height:10.0,
               width: 125.0,
-              color: Colors.brown
+              color: Colors.blue
           ),
           builder: (context, child){
                return Transform.rotate(
@@ -139,7 +139,7 @@ class HomeState extends State<Home> with TickerProviderStateMixin{
           child: Container(
               height:10.0,
               width: 125.0,
-              color: Colors.brown
+              color: Colors.blue
           ),
           builder: (context, child){
                return Transform.rotate(
